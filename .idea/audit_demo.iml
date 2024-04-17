@@ -75,6 +75,7 @@
     <orderEntry type="library" scope="PROVIDED" name="nio4r (v2.7.1, asdf: 3.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="nokogiri (v1.16.3, asdf: 3.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="orm_adapter (v0.5.0, asdf: 3.2.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="paper_trail (v12.3.0, asdf: 3.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="pg (v1.5.6, asdf: 3.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="psych (v5.1.2, asdf: 3.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="public_suffix (v5.0.5, asdf: 3.2.2) [gem]" level="application" />
@@ -90,6 +91,7 @@
     <orderEntry type="library" scope="PROVIDED" name="rdoc (v6.6.3.1, asdf: 3.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="regexp_parser (v2.9.0, asdf: 3.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="reline (v0.5.1, asdf: 3.2.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="request_store (v1.5.1, asdf: 3.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="responders (v3.1.1, asdf: 3.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rexml (v3.2.6, asdf: 3.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rubyzip (v2.3.2, asdf: 3.2.2) [gem]" level="application" />
@@ -138,6 +140,9 @@
         <option value="migration" />
         <option value="model" />
         <option value="mongoid:devise" />
+        <option value="paper_trail:install" />
+        <option value="paper_trail:migration" />
+        <option value="paper_trail:update_item_subtype" />
         <option value="resource" />
         <option value="responders:install" />
         <option value="responders_controller" />
@@ -176,6 +181,9 @@
         <option value="migration" />
         <option value="model" />
         <option value="mongoid:devise" />
+        <option value="paper_trail:install" />
+        <option value="paper_trail:migration" />
+        <option value="paper_trail:update_item_subtype" />
         <option value="resource" />
         <option value="responders:install" />
         <option value="responders_controller" />
